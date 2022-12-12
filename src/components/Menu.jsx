@@ -10,7 +10,7 @@ export default function Menu() {
       <ul className='navUl'>
         <Link to='/'><li className='navLi' >Home Page</li></Link>
         <Link to='/tasks'><li className='navLi'>All Tasks</li></Link>
-        <Link to='/add-task'><li className='navLi'>Add New Task</li></Link>
+        <Link to='/add-task'><li className='navLi'>Add New Task2222222</li></Link>
       </ul>
     </div>
   )
