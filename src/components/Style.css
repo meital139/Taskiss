@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "bold";
+    src: local("Ubuntu-Bold"),
+      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\Ubuntu-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "light"; 
+    src: local("Ubuntu-Light"),
+      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\Ubuntu-Light.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "crazy"; 
+    src: local("KBZipaDeeDooDah"),
+      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\Kbzipadeedoodah-YG3j.ttf") format("truetype");
+  }
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  float: left;
+  width: 60%;
+}
+.loving{
+    width: fit-content;
+    margin-left:10%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    background-image: radial-gradient(#553c9a, #0a4265);
+    font-family:"bold" ;
+}
+
+.meital{
+    float:none;
+    width: fit-content;
+    font-size: 25px;
+    font-weight: 150;
+    font-family:"crazy" ;
+    margin-left: 150px;
+}
+.clockDiv{
+    width: fit-content;
+    /* border: #f8f7f9 4px solid; */
+    border-radius: 15px;
+    margin: 5px;
+    margin-left:10%;
+    padding: 0px 4px 4px 2px;
+    border: 3px #0c546e solid;
+    animation: blink 1s;
+    animation-iteration-count:infinite;
+}
+@keyframes blink { 50% { border-color:#fff ; }  }
+
+h2{
+    width: fit-content;
+    font-size: 50px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: radial-gradient(#f6f9f7, #f0f5f7);
+    font-family:"bold" ;
+}
+/* **clock on homepage** */
+.clock{ 
+    float: center;
+    width: fit-content;
+    font-size: 50px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: radial-gradient(#f6f9f7, #f0f5f7);
+    font-family:"bold" ;
+}
+
+h1{
+    float: center;
+    width: fit-content;
+    font-size: 70px;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: radial-gradient(#553c9a, #ee4b2b);
+    font-family:"bold" ;
+}
+
+.navUl{
+    list-style: none;
+    display: flex;
+    overflow:hidden;  
+    list-style-type: none;
+    margin: 5px;
+    margin-left:10%;
+    border: 1px rgb(12, 12, 13);
+    padding: 0px;
+    width: fit-content;
+    font-family:"bold";
+}
+
+.navLi{
+    width: fit-content;
+    font-family:"bold";
+    border: 2px solid rgb(11, 11, 64);
+    /* background-color: transparent; */
+    background-color:#fffcfc;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.navLi:hover {
+    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+    background-size: 100% 100%;
+    color: #27262c;
+    border: 2px solid rgb(11, 11, 64);
+    border-radius: 15px;
+    animation: spring 300ms ease-out;
+    text-shadow: 0 -1px 0 #6c88ef;
+    font-weight: bold;
+  }
+  .navLi:active {
+    transform: translateY(4px);
+  }
+  
+  @keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+
+.addDiv{
+    float: center;
+    width: fit-content;
+    margin-left:10%;
+}
+
+.addInpt{
+    display: inline-block;
+    font-family: "light"; 
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    background: #fefefe;
+    border: 1px solid #1932bf;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    margin: 5px;
+}
+
+.detailsInpt{
+    font-family: "light"; 
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 80px;
+    background: #fefefe;
+    border: 1px solid #1932bf;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    margin: 5px;  
+}
+
+.dueTimeP{
+    color:#9d3039;
+    font-family: "bold"; 
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    margin: 5px;
+}
+
+.timePicker{
+    font-family: "light"; 
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    margin: 10px;
+}
+
+.addBtn{
+    background: #3e0c94;
+    border: 1px solid #fffcfc;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "light"; 
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.allTasksDiv{
+    position: relative;
+}
+
+.taskDiv{
+    border: 5px solid #0b0678;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;    
+    font-family: "light"; 
+    background: transparent;
+    padding: 5px;
+    width:fit-content;
+    min-width: 500px;
+    margin: 8px;
+    margin-left:5%;
+    align-content: flex-start;
+}
+.taskStyle1{
+    color:blue;
+    size: 10px;
+    font-family: "light"; 
+}
+
+.taskStyle2{
+    color:red;
+    text-decoration: line-through;
+    size: 10px;
+    font-family: "light"; 
+}
+
+.removeBtn{
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "light"; 
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.removeBtn:hover,
+.removeBtn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.removeBtn:active {
+  opacity: .5;
+}
+
+.checkBox{
+    accent-color: #9d3039;
+    height: 20px; 
+    width: 35px; 
+    /* position: relative;
+    left:65%; */
+}
+
