@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Taskiss/static/css/main.33fd2b16.css",
-    "main.js": "/Taskiss/static/js/main.dd5ac9fb.js",
+    "main.js": "/Taskiss/static/js/main.0c4fb029.js",
     "static/js/787.5e141d9e.chunk.js": "/Taskiss/static/js/787.5e141d9e.chunk.js",
     "static/media/Ubuntu-Light.ttf": "/Taskiss/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
     "static/media/Ubuntu-Bold.ttf": "/Taskiss/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
@@ -9,11 +9,11 @@
     "static/media/taskissLogo.png": "/Taskiss/static/media/taskissLogo.c4d4e3cb4b7178ce04e3.png",
     "index.html": "/Taskiss/index.html",
     "main.33fd2b16.css.map": "/Taskiss/static/css/main.33fd2b16.css.map",
-    "main.dd5ac9fb.js.map": "/Taskiss/static/js/main.dd5ac9fb.js.map",
+    "main.0c4fb029.js.map": "/Taskiss/static/js/main.0c4fb029.js.map",
     "787.5e141d9e.chunk.js.map": "/Taskiss/static/js/787.5e141d9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33fd2b16.css",
-    "static/js/main.dd5ac9fb.js"
+    "static/js/main.0c4fb029.js"
   ]
 }
