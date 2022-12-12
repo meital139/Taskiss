@@ -25,7 +25,7 @@ export default function Task(props) {
 
   return (
     <div className='taskDiv' style={{background: "rgba(74, 126, 205, 0.3)"}}>
-        <p className={taskStyle} style={{fontFamily: "bold", fontSize: "25px", color:"darkBlue",textShadow:"3px 3px 4px white"}}>{props.taskName}</p>
+        <p className={taskStyle} style={{fontFamily: "bold", fontSize: "25px", color:"black",textShadow:"3px 3px 4px white"}}>{props.taskName}</p>
         <p className={taskStyle}>Details:{props.taskDetails}</p>
         <p className={taskStyle}>Task Due Time is: {moment(new Date(props.taskTime)).format("D MMM YYYY -  HH:mm:ss")}</p>
 

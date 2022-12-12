@@ -110,14 +110,14 @@ h1{
     font-family:"bold";
     border: 2px solid rgb(11, 11, 64);
     /* background-color: transparent; */
-    background-color:#fffcfc;
+    background-color:#5fdc36;
     padding: 10px;
     text-decoration: none;
     margin: 5px;
 }
 
 .navLi:hover {
-    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+    /* background-image: url('https://scottyzen.sirv.com/Images/v/button.png'); */
     background-size: 100% 100%;
     color: #27262c;
     border: 2px solid rgb(11, 11, 64);
@@ -230,7 +230,7 @@ h1{
 }
 
 .taskDiv{
-    border: 5px solid #0b0678;
+    border: 5px solid #6d530d;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;    
@@ -244,9 +244,9 @@ h1{
     align-content: flex-start;
 }
 .taskStyle1{
-    color:blue;
+    color:rgb(30, 30, 33);
     size: 10px;
-    font-family: "light"; 
+    font-family: "bold"; 
 }
 
 .taskStyle2{
