@@ -1,13 +1,13 @@
 @font-face {
     font-family: "bold";
-    src: local("Ubuntu-Bold"),
-      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\Ubuntu-Bold.ttf") format("truetype");
+    src: local("BowlbyOneSC-Regular"),
+      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\BowlbyOneSC-Regular.ttf") format("truetype");
   }
 
   @font-face {
     font-family: "light"; 
-    src: local("Ubuntu-Light"),
-      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\Ubuntu-Light.ttf") format("truetype");
+    src: local("BowlbyOneSC-Regular"),
+      url("C:\Users\meita\OneDrive\שולחן העבודה\react shecodes\toDoApp\to-do-app\src\fonts\BowlbyOneSC-Regular.ttf") format("truetype");
   }
 
   @font-face {
@@ -23,17 +23,7 @@
 .logo{
   float: left;
   width: 60%;
-}
-.loving{
-    width: fit-content;
-    margin-left:10%;
-    left: 25%;
-    font-size: 40px;
-    font-weight: 600;
-    color: transparent;
-    background-clip: text;
-    background-image: radial-gradient(#553c9a, #0a4265);
-    font-family:"bold" ;
+  /* logo made here: https://app.logo.com/dashboard/logo_5472a335-6ce6-4328-8c28-8050a9da6abb/logo-files; */
 }
 
 .meital{
@@ -92,6 +82,10 @@ h1{
     font-family:"bold" ;
 }
 
+.menu{
+  display: flex;
+}
+
 .navUl{
     list-style: none;
     display: flex;
@@ -110,7 +104,7 @@ h1{
     font-family:"bold";
     border: 2px solid rgb(11, 11, 64);
     /* background-color: transparent; */
-    background-color:#5fdc36;
+    background-color:#ea6dde;
     padding: 10px;
     text-decoration: none;
     margin: 5px;

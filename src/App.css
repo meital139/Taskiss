@@ -12,15 +12,14 @@
 
 .App {
   text-align: center;
-  background-image: url("https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+  /* background-image: url("https://images.pexels.com/photos/4197560/pexels-photo-4197560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
   /* background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png"); */
   /* background-position: 100%; */
   background-repeat: no-repeat;
   background-size:cover;
   float: left;
-  height: fit-content;
-  /* size: 100%; */
-  
+  height: fit-content;  
 }
 
 /* .App-logo {
