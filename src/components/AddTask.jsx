@@ -20,12 +20,6 @@ export default function AddTask(props) {
   
   const timeToEnd = [days, hours, minutes];
 
-  // if(new Date() > time){
-  //   days= 'task passed time!';
-  //   hours='task passed time!';
-  //   minutes='task passed time!';
-  // }
-
     const validTask=()=>{
       if(task.length>0){
         props.add(task,details,time,timeToEnd);
