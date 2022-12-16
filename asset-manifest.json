@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Taskiss/static/css/main.3632dc09.css",
-    "main.js": "/Taskiss/static/js/main.bfa917a7.js",
+    "main.js": "/Taskiss/static/js/main.f3180d74.js",
     "static/js/787.5e141d9e.chunk.js": "/Taskiss/static/js/787.5e141d9e.chunk.js",
     "static/media/MeitalCV.jpg": "/Taskiss/static/media/MeitalCV.9f78aa9eeae4572b5514.jpg",
     "static/media/Ubuntu-Light.ttf": "/Taskiss/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
@@ -11,11 +11,11 @@
     "static/media/BowlbyOneSC-Regular.ttf": "/Taskiss/static/media/BowlbyOneSC-Regular.841cf9be1102e624c50b.ttf",
     "index.html": "/Taskiss/index.html",
     "main.3632dc09.css.map": "/Taskiss/static/css/main.3632dc09.css.map",
-    "main.bfa917a7.js.map": "/Taskiss/static/js/main.bfa917a7.js.map",
+    "main.f3180d74.js.map": "/Taskiss/static/js/main.f3180d74.js.map",
     "787.5e141d9e.chunk.js.map": "/Taskiss/static/js/787.5e141d9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3632dc09.css",
-    "static/js/main.bfa917a7.js"
+    "static/js/main.f3180d74.js"
   ]
 }
