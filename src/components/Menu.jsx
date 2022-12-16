@@ -11,6 +11,7 @@ export default function Menu() {
         <Link to='/'><li className='navLi' >Home Page</li></Link>
         <Link to='/tasks'><li className='navLi'>All Tasks</li></Link>
         <Link to='/add-task'><li className='navLi'>Add New Task</li></Link>
+        <Link to='/about-Meital'><li className='navLi'>About Meital</li></Link>
       </ul>
     </div>
   )

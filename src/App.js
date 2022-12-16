@@ -9,6 +9,7 @@ import AllTasks from './components/AllTasks';
 import Title from './components/Title';
 import Task from './components/Task';
 import Homepage from './components/Homepage';
+import AboutMeital from './components/AboutMeital';
 
 
 function App() {
@@ -44,9 +45,11 @@ function App() {
       <BrowserRouter> 
         <Menu/>
           <Routes>
+            <Route path='/Taskiss' element={<Homepage tasksArr={tasks} remove={remove}/>}/>
             <Route path='/' element={<Homepage tasksArr={tasks} remove={remove}/>}/>
             <Route path='/add-task' element={<AddTask add={addNewTask}/>}/>
             <Route path='/tasks' element={<AllTasks tasksArr={tasks} remove={remove}/>}/>
+            <Route path='/about-Meital' element={<AboutMeital/>}/>
         </Routes>
       </BrowserRouter>
     </div>
