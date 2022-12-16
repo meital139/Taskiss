@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Taskiss/static/css/main.91d89735.css",
-    "main.js": "/Taskiss/static/js/main.3d7f4ee2.js",
+    "main.css": "/Taskiss/static/css/main.3632dc09.css",
+    "main.js": "/Taskiss/static/js/main.57788408.js",
     "static/js/787.5e141d9e.chunk.js": "/Taskiss/static/js/787.5e141d9e.chunk.js",
+    "static/media/MeitalCV.jpg": "/Taskiss/static/media/MeitalCV.9f78aa9eeae4572b5514.jpg",
     "static/media/Ubuntu-Light.ttf": "/Taskiss/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
     "static/media/Ubuntu-Bold.ttf": "/Taskiss/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
     "static/media/Kbzipadeedoodah-YG3j.ttf": "/Taskiss/static/media/Kbzipadeedoodah-YG3j.6afc032dd65a0135d41a.ttf",
     "static/media/taskissLogo.png": "/Taskiss/static/media/taskissLogo.addf6699535cc0b65b3f.png",
     "static/media/BowlbyOneSC-Regular.ttf": "/Taskiss/static/media/BowlbyOneSC-Regular.841cf9be1102e624c50b.ttf",
     "index.html": "/Taskiss/index.html",
-    "main.91d89735.css.map": "/Taskiss/static/css/main.91d89735.css.map",
-    "main.3d7f4ee2.js.map": "/Taskiss/static/js/main.3d7f4ee2.js.map",
+    "main.3632dc09.css.map": "/Taskiss/static/css/main.3632dc09.css.map",
+    "main.57788408.js.map": "/Taskiss/static/js/main.57788408.js.map",
     "787.5e141d9e.chunk.js.map": "/Taskiss/static/js/787.5e141d9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91d89735.css",
-    "static/js/main.3d7f4ee2.js"
+    "static/css/main.3632dc09.css",
+    "static/js/main.57788408.js"
   ]
 }
